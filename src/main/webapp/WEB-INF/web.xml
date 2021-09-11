@@ -5,4 +5,14 @@
          id="WebApp_ID" version="4.0">
 
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>ru.geekbrains.alekseiterentev.servlet.ProductServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/product</url-pattern>
+  </servlet-mapping>
 </web-app>
